@@ -16,7 +16,7 @@ BBlack='\033[1;30m'       # Black
 BRed='\033[1;31m'         # Red
 BGreen='\033[1;32m'       # Green
 BYellow='\033[1;33m'      # Yellow
-BBlue='\033[1;34m'        # Blue
+BBlue='\033[1;34m'        # Blue 
 BPurple='\033[1;35m'      # Purple
 BCyan='\033[1;36m'        # Cyan
 BWhite='\033[1;37m'       # White
@@ -70,3 +70,76 @@ On_IBlue='\033[0;104m'    # Blue
 On_IPurple='\033[0;105m'  # Purple
 On_ICyan='\033[0;106m'    # Cyan
 On_IWhite='\033[0;107m'   # White
+
+echo -e "\n\nReset"
+echo -e "${NC}NC (Resets to default) ${NC}"
+
+echo -e "\n\nRegular Colors"
+echo -e "${Black}Black ${NC}"
+echo -e "${Red}Red ${NC}"
+echo -e "${Green}Green ${NC}"
+echo -e "${Yellow}Yellow ${NC}"
+echo -e "${Blue}Blue ${NC}"
+echo -e "${Purple}Purple ${NC}"
+echo -e "${Cyan}Cyan ${NC}"
+echo -e "${White}White ${NC}"
+
+echo -e "\n\nBold"
+echo -e "${BBlack}BBlack ${NC}"
+echo -e "${BRed}BRed ${NC}"
+echo -e "${BGreen}BGreen ${NC}"
+echo -e "${BYellow}BYellow ${NC}"
+echo -e "${BBlue}BBlue ${NC}"
+echo -e "${BPurple}BPurple ${NC}"
+echo -e "${BCyan}BCyan ${NC}"
+echo -e "${BWhite}BWhite ${NC}"
+
+echo -e "\n\nUnderline"
+echo -e "${UBlack}UBlack ${NC}"
+echo -e "${URed}URed ${NC}"
+echo -e "${UGreen}UGreen ${NC}"
+echo -e "${UYellow}UYellow ${NC}"
+echo -e "${UBlue}UBlue ${NC}"
+echo -e "${UPurple}UPurple ${NC}"
+echo -e "${UCyan}UCyan ${NC}"
+echo -e "${UWhite}UWhite ${NC}"
+
+echo -e "\n\nBackground"
+echo -e "${On_Black}On_Black ${NC}"
+echo -e "${On_Red}On_Red ${NC}"
+echo -e "${On_Green}On_Green ${NC}"
+echo -e "${On_Yellow}On_Yellow ${NC}"
+echo -e "${On_Blue}On_Blue ${NC}"
+echo -e "${On_Purple}On_Purple ${NC}"
+echo -e "${On_Cyan}On_Cyan ${NC}"
+echo -e "${On_White}On_White ${NC}"
+
+echo -e "\n\nHigh Intensity"
+echo -e "${IBlack}IBlack ${NC}"
+echo -e "${IRed}IRed ${NC}"
+echo -e "${IGreen}IGreen ${NC}"
+echo -e "${IYellow}IYellow ${NC}"
+echo -e "${IBlue}IBlue ${NC}"
+echo -e "${IPurple}IPurple ${NC}"
+echo -e "${ICyan}ICyan ${NC}"
+echo -e "${IWhite}IWhite ${NC}"
+
+echo -e "\n\nBold High Intensity"
+echo -e "${BIBlack}BIBlack ${NC}"
+echo -e "${BIRed}BIRed ${NC}"
+echo -e "${BIGreen}BIGreen ${NC}"
+echo -e "${BIYellow}BIYellow ${NC}"
+echo -e "${BIBlue}BIBlue ${NC}"
+echo -e "${BIPurple}BIPurple ${NC}"
+echo -e "${BICyan}BICyan ${NC}"
+echo -e "${BIWhite}BIWhite ${NC}"
+
+echo -e "\n\nHigh Intensity backgrounds"
+echo -e "${On_IBlack}On_IBlack ${NC}"
+echo -e "${On_IRed}On_IRed ${NC}"
+echo -e "${On_IGreen}On_IGreen ${NC}"
+echo -e "${On_IYellow}On_IYellow ${NC}"
+echo -e "${On_IBlue}On_IBlue ${NC}"
+echo -e "${On_IPurple}On_IPurple ${NC}"
+echo -e "${On_ICyan}On_ICyan ${NC}"
+echo -e "${On_IWhite}On_IWhite ${NC}"
